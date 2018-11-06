@@ -2,11 +2,7 @@
   "name": "price-storer",
   "version": "1.0.0",
   "description": "Store current price for a route into a historical price store",
-  "main": "index.js",
-  "dependencies": {
-    "elasticsearch": "^15.2.0"
-  },
-  "devDependencies": {},
+  "main": "handler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,10 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/altancabal/price-storer.git"
   },
-  "author": "Altan Cabal",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/altancabal/price-storer/issues"
   },
-  "homepage": "https://github.com/altancabal/price-storer#readme"
+  "homepage": "https://github.com/altancabal/price-storer#readme",
+  "dependencies": {
+    "elasticsearch": "^15.2.0",
+    "express": "^4.16.4",
+    "serverless-http": "^1.8.0"
+  }
 }
