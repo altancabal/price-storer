@@ -2,9 +2,9 @@
 Store current price for a route into a historical price store
 
 # Requirements
-Node.js 8.10
-The following environment variables:
-ELSATIC_HOST: The host for Elasticsearch
+* Node.js 8.10
+* The following environment variables:
+...* ELASTIC_HOST: The host for Elasticsearch
 
 # Install
 ```
